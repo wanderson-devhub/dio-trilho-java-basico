@@ -14,9 +14,15 @@ public class TestandoMetodos {
         Exer02_Mensagem.mostrarMensagem(27);
 
         System.out.println("Testando o empréstimo");
-        Exer03_Emprestimo.calcularValorFinal(800, Exer03_Emprestimo.getDuasParcelas());
-        Exer03_Emprestimo.calcularValorFinal(900, Exer03_Emprestimo.getTresParcelas());
-        Exer03_Emprestimo.calcularValorFinal(500, 5);
+        Exer03_Emprestimo.calcularValorFinal(1000, Exer03_Emprestimo.getDuasParcelas());
+        Exer03_Emprestimo.calcularValorFinal(1000, Exer03_Emprestimo.getTresParcelas());
+        Exer03_Emprestimo.calcularValorFinal(1000, 5);
+
+        System.out.println("Testando o quadrilatero");
+        Exer04_Quadrilatero.quadrilatero(4);
+        Exer04_Quadrilatero.quadrilatero(14d, 19d);
+        Exer04_Quadrilatero.quadrilatero(24, 9, 15);
+        Exer04_Quadrilatero.quadrilatero(5f, 5f);
 
     }
 }
