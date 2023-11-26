@@ -24,5 +24,11 @@ public class TestandoMetodos {
         Exer04_Quadrilatero.quadrilatero(24, 9, 15);
         Exer04_Quadrilatero.quadrilatero(5f, 5f);
 
+        System.out.println("Testando o quadrilatero com return");
+        System.out.println(Exer05_Quadrilatero.quadrilatero2(7) + "\n" +
+        Exer05_Quadrilatero.quadrilatero2(6d, 6d) + "\n" +
+        Exer05_Quadrilatero.quadrilatero2(14, 9, 15) + "\n" +
+        Exer05_Quadrilatero.quadrilatero2(6f, 6f));
+
     }
 }
