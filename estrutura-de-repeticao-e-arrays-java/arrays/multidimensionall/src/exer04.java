@@ -47,7 +47,7 @@ public class exer04 {
                }
 
                dia--;
-               System.out.println("Me informe o compromisso compromisso: ");
+               System.out.println("Me informe o compromisso: ");
                compromissos[dia][hora] = scan.next();
 
            } else if (opcao == 2) {
