@@ -15,9 +15,12 @@ public class TestaContas {
         contaCorrente.atualiza(0.01);
         contaPoupanca.atualiza(0.01);
 
-        System.out.println(conta.getSaldo());
-        System.out.println(contaCorrente.getSaldo());
-        System.out.println(contaPoupanca.getSaldo());
+        AtualizadorDeContas  adc = new AtualizadorDeContas(0.01);
 
+        adc.roda(conta);
+        adc.roda(contaCorrente);
+        adc.roda(contaPoupanca);
+
+        System.out.println("Saldo Total: " + adc.getSaldoTotal());
     }
 }
