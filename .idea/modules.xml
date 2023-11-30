@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Sistema_smart_tv/Sistema_smart_tv.iml" filepath="$PROJECT_DIR$/Sistema_smart_tv/Sistema_smart_tv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estrutura-de-repeticao-e-arrays-java/arrays/arrays.iml" filepath="$PROJECT_DIR$/estrutura-de-repeticao-e-arrays-java/arrays/arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dio-trilho-java-basico.iml" filepath="$PROJECT_DIR$/.idea/dio-trilho-java-basico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estrutura-de-repeticao-e-arrays-java/estrutura-de-repeticao-e-arrays-java.iml" filepath="$PROJECT_DIR$/estrutura-de-repeticao-e-arrays-java/estrutura-de-repeticao-e-arrays-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orientacao-a-objetos-java/heranca-associacao-interface/heranca/heranca.iml" filepath="$PROJECT_DIR$/orientacao-a-objetos-java/heranca-associacao-interface/heranca/heranca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estrutura-de-repeticao-e-arrays-java/loops/loops.iml" filepath="$PROJECT_DIR$/estrutura-de-repeticao-e-arrays-java/loops/loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metodos/metodos.iml" filepath="$PROJECT_DIR$/metodos/metodos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estrutura-de-repeticao-e-arrays-java/arrays/multidimensionall/multidimensionall.iml" filepath="$PROJECT_DIR$/estrutura-de-repeticao-e-arrays-java/arrays/multidimensionall/multidimensionall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orientacao-a-objetos-java/orientacao-a-objetos-java.iml" filepath="$PROJECT_DIR$/orientacao-a-objetos-java/orientacao-a-objetos-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estrutura-de-repeticao-e-arrays-java/arrays/unidimensional/unidimensional.iml" filepath="$PROJECT_DIR$/estrutura-de-repeticao-e-arrays-java/arrays/unidimensional/unidimensional.iml" />
+    </modules>
+  </component>
+</project>
