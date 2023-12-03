@@ -4,7 +4,7 @@ public class ContaCorrente extends Conta{
 
     //Método reescrito para atribuir uma taxa dupla toda vez que atualizar.
     @Override
-    public void atualiza (double taxa) {
+    public void  atualiza (double taxa) {
         this.saldo += this.saldo * taxa * 2;
     }
 
