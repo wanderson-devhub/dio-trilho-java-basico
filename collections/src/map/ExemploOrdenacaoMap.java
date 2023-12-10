@@ -9,18 +9,18 @@ public class ExemploOrdenacaoMap {
         System.out.println("\n---\tOrdem aleatória\t---");
 
         Map<String, Livro> meusLivros = new HashMap<>(){{
-            put(" Hawking, Setphen", new Livro ("Uma Breve História do Tempo", 255));
-            put(" Duhigg, Charles", new Livro ("O Poder do Hábito", 408));
-            put(" Harari, Yubal Noah", new Livro ("21 Lições Para o Século 21", 432));
+            put(" Manson, Mark", new Livro ("A Sutil Arte de Ligar o Foda-se", 224));
+            put(" Barbosa, Christian", new Livro ("A Triade Do Tempo", 208));
+            put(" Duhigg, Charles", new Livro ("O Poder do Habito", 408));
         }};
         for(Map.Entry<String, Livro> livro : meusLivros.entrySet())
             System.out.println(livro.getKey() + " - " + livro.getValue().getNome());
 
         System.out.println("\n---\tOrdem Inserção\t---");
         Map<String, Livro> meusLivros1 = new LinkedHashMap<>() {{
-            put(" Hawking, Setphen", new Livro ("Uma Breve História do Tempo", 255));
-            put(" Duhigg, Charles", new Livro ("O Poder do Hábito", 408));
-            put(" Harari, Yubal Noah", new Livro ("21 Lições Para o Século 21", 432));
+            put(" Manson, Mark", new Livro ("A Sutil Arte de Ligar o Foda-se", 224));
+            put(" Barbosa, Christian", new Livro ("A Triade Do Tempo", 208));
+            put(" Duhigg, Charles", new Livro ("O Poder do Habito", 408));
         }};
         for(Map.Entry<String, Livro> livros : meusLivros1.entrySet())
             System.out.println(livros.getKey() + " - " + livros.getValue().getNome());
